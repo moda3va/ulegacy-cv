@@ -20,13 +20,14 @@ const Hero = () => {
                   <span className="gradient-text">Morris</span>
                 </h1>
                 <h2 className="text-xl lg:text-2xl text-muted-foreground mt-2 font-medium">
-                  Senior Software Engineer & Full Stack Developer
+                  Senior DevOps/SRE Engineer & IT Infrastructure Specialist
                 </h2>
               </div>
               
               <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-                Transforming ideas into powerful digital solutions with over 10 years of experience in 
-                full-stack development, system architecture, and team leadership. Let's build something amazing together.
+                Building reliable, scalable infrastructure and automating complex systems with over 10 years 
+                of experience in DevOps, Site Reliability Engineering, and IT operations. Ensuring 99.9% uptime 
+                while optimizing performance and reducing operational overhead.
               </p>
             </div>
 
@@ -34,15 +35,15 @@ const Hero = () => {
             <div className="grid grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="text-3xl font-bold text-foreground">10+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
+                <div className="text-sm text-muted-foreground">Years in IT</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-foreground">100+</div>
-                <div className="text-sm text-muted-foreground">Projects Delivered</div>
+                <div className="text-3xl font-bold text-foreground">99.9%</div>
+                <div className="text-sm text-muted-foreground">System Uptime</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-foreground">500+</div>
-                <div className="text-sm text-muted-foreground">Deployments</div>
+                <div className="text-3xl font-bold text-foreground">1000+</div>
+                <div className="text-sm text-muted-foreground">Automated Pipelines</div>
               </div>
             </div>
 
@@ -95,13 +96,13 @@ const Hero = () => {
             <div className="hero-card rounded-2xl p-8 relative overflow-hidden">
               <div className="absolute top-4 right-4 flex gap-2">
                 <Badge variant="secondary" className="bg-brand-purple/10 text-brand-purple border-brand-purple/20">
-                  Senior Developer
+                  DevOps/SRE Expert
                 </Badge>
               </div>
               
               <img
                 src="/lovable-uploads/41a03c43-d4ad-4987-960b-0779a4936391.png"
-                alt="Uba Morris - Senior Software Engineer"
+                alt="Uba Morris - Senior DevOps/SRE Engineer"
                 className="w-full h-auto rounded-xl object-cover"
               />
               
@@ -109,13 +110,13 @@ const Hero = () => {
                 <div className="hero-card rounded-lg p-4">
                   <h3 className="font-semibold text-lg mb-2">Ready to Collaborate</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Specializing in React, Node.js, Python, and Cloud Architecture
+                    Specializing in AWS, Kubernetes, Docker, and Infrastructure as Code
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary" className="bg-brand-blue/10 text-brand-blue border-brand-blue/20">React</Badge>
-                    <Badge variant="secondary" className="bg-brand-purple/10 text-brand-purple border-brand-purple/20">Node.js</Badge>
-                    <Badge variant="secondary" className="bg-brand-green/10 text-brand-green border-brand-green/20">Python</Badge>
                     <Badge variant="secondary" className="bg-brand-blue/10 text-brand-blue border-brand-blue/20">AWS</Badge>
+                    <Badge variant="secondary" className="bg-brand-purple/10 text-brand-purple border-brand-purple/20">Kubernetes</Badge>
+                    <Badge variant="secondary" className="bg-brand-green/10 text-brand-green border-brand-green/20">Docker</Badge>
+                    <Badge variant="secondary" className="bg-brand-blue/10 text-brand-blue border-brand-blue/20">Terraform</Badge>
                   </div>
                 </div>
               </div>
