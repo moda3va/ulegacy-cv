@@ -8,12 +8,12 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-            Building Reliable <span className="gradient-text">Infrastructure at Scale</span>
+            Mastering <span className="gradient-text">Cloud-Native Excellence</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            With over 10 years of experience in IT and DevOps/SRE engineering, 
-            I specialize in creating bulletproof infrastructure, implementing robust automation, 
-            and ensuring systems run smoothly at any scale.
+            With over 10 years of specialized experience in Cloud DevOps/SRE engineering, 
+            I architect resilient cloud infrastructure, implement advanced automation, 
+            and ensure mission-critical systems deliver exceptional performance at scale.
           </p>
         </div>
 
@@ -21,20 +21,20 @@ const About = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed">
-              I began my career in IT support and quickly discovered my passion for automation, 
-              infrastructure optimization, and system reliability. This led me to specialize in 
-              DevOps practices, Site Reliability Engineering, and cloud architecture.
+              I began my career in cloud infrastructure and quickly discovered my passion for 
+              cloud-native technologies, advanced automation, and site reliability engineering. 
+              This led me to specialize in multi-cloud DevOps practices and enterprise-scale SRE methodologies.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Today, I help organizations modernize their infrastructure, implement CI/CD pipelines, 
-              ensure high availability, and build resilient systems that can handle massive scale. 
-              I believe in the power of Infrastructure as Code, automated monitoring, and proactive 
-              incident response to maintain 99.9% uptime.
+              Today, I help organizations transform their cloud infrastructure, implement sophisticated 
+              CI/CD pipelines, ensure 99.99% availability, and build cloud-native systems that scale 
+              effortlessly. I believe in Infrastructure as Code, observability-driven operations, 
+              and proactive incident management to maintain exceptional service reliability.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I'm not optimizing systems, you'll find me contributing to DevOps communities, 
-              mentoring junior engineers, or exploring the latest trends in cloud-native technologies 
-              and observability tools.
+              When I'm not optimizing cloud architectures, you'll find me contributing to cloud-native 
+              communities, mentoring aspiring cloud engineers, or exploring cutting-edge technologies 
+              in serverless, container orchestration, and cloud security.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
@@ -43,8 +43,8 @@ const About = () => {
                   <Code className="w-5 h-5 text-brand-purple" />
                 </div>
                 <div>
-                  <div className="font-semibold">Infrastructure as Code</div>
-                  <div className="text-sm text-muted-foreground">Terraform & Ansible</div>
+                  <div className="font-semibold">Cloud Infrastructure as Code</div>
+                  <div className="text-sm text-muted-foreground">Terraform & CloudFormation</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -52,8 +52,8 @@ const About = () => {
                   <Users className="w-5 h-5 text-brand-blue" />
                 </div>
                 <div>
-                  <div className="font-semibold">Team Leadership</div>
-                  <div className="text-sm text-muted-foreground">DevOps Culture & Best Practices</div>
+                  <div className="font-semibold">Cloud DevOps Leadership</div>
+                  <div className="text-sm text-muted-foreground">Team & Culture Transformation</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -61,8 +61,8 @@ const About = () => {
                   <Zap className="w-5 h-5 text-brand-green" />
                 </div>
                 <div>
-                  <div className="font-semibold">System Reliability</div>
-                  <div className="text-sm text-muted-foreground">99.9% Uptime SLA</div>
+                  <div className="font-semibold">Site Reliability Engineering</div>
+                  <div className="text-sm text-muted-foreground">99.99% Cloud Uptime</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -70,8 +70,8 @@ const About = () => {
                   <Award className="w-5 h-5 text-brand-purple" />
                 </div>
                 <div>
-                  <div className="font-semibold">Cloud Architecture</div>
-                  <div className="text-sm text-muted-foreground">AWS & Multi-Cloud</div>
+                  <div className="font-semibold">Multi-Cloud Architecture</div>
+                  <div className="text-sm text-muted-foreground">AWS, Azure & GCP</div>
                 </div>
               </div>
             </div>
@@ -87,36 +87,36 @@ const About = () => {
                   <Badge variant="secondary">AWS</Badge>
                   <Badge variant="secondary">Azure</Badge>
                   <Badge variant="secondary">Google Cloud</Badge>
-                  <Badge variant="secondary">EC2</Badge>
-                  <Badge variant="secondary">EKS</Badge>
-                  <Badge variant="secondary">Lambda</Badge>
+                  <Badge variant="secondary">AWS EKS</Badge>
+                  <Badge variant="secondary">Azure AKS</Badge>
+                  <Badge variant="secondary">GKE</Badge>
                 </div>
               </CardContent>
             </Card>
 
             <Card className="hero-card">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-3">DevOps & Automation Tools</h4>
+                <h4 className="font-semibold mb-3">Cloud DevOps & Automation</h4>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Docker</Badge>
                   <Badge variant="secondary">Kubernetes</Badge>
-                  <Badge variant="secondary">Jenkins</Badge>
-                  <Badge variant="secondary">GitLab CI</Badge>
-                  <Badge variant="secondary">Ansible</Badge>
+                  <Badge variant="secondary">Docker</Badge>
                   <Badge variant="secondary">Terraform</Badge>
+                  <Badge variant="secondary">CloudFormation</Badge>
+                  <Badge variant="secondary">GitLab CI/CD</Badge>
+                  <Badge variant="secondary">Azure DevOps</Badge>
                 </div>
               </CardContent>
             </Card>
 
             <Card className="hero-card">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-3">Monitoring & Observability</h4>
+                <h4 className="font-semibold mb-3">Cloud Monitoring & SRE</h4>
                 <div className="flex flex-wrap gap-2">
+                  <Badge variant="secondary">CloudWatch</Badge>
+                  <Badge variant="secondary">Azure Monitor</Badge>
                   <Badge variant="secondary">Prometheus</Badge>
                   <Badge variant="secondary">Grafana</Badge>
-                  <Badge variant="secondary">ELK Stack</Badge>
                   <Badge variant="secondary">Datadog</Badge>
-                  <Badge variant="secondary">New Relic</Badge>
                   <Badge variant="secondary">PagerDuty</Badge>
                 </div>
               </CardContent>
