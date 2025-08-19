@@ -16,8 +16,8 @@ const Hero = () => {
               
               <div>
                 <h1 className="text-5xl lg:text-7xl font-bold tracking-tight">
-                  Uba{" "}
-                  <span className="gradient-text">Morris</span>
+                  Nwogbo{" "}
+                  <span className="gradient-text">Ubakeze</span>
                 </h1>
                 <h2 className="text-xl lg:text-2xl text-muted-foreground mt-2 font-medium">
                   Senior Cloud DevOps/SRE Engineer
@@ -80,7 +80,7 @@ const Hero = () => {
               <div className="flex items-center gap-2">
                 <Linkedin className="w-4 h-4" />
                 <a 
-                  href="https://linkedin.com/in/uba-morris" 
+                  href="https://linkedin.com/in/nwogbo-ubakeze" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-foreground transition-colors"
@@ -102,7 +102,7 @@ const Hero = () => {
               
               <img
                 src="/lovable-uploads/41a03c43-d4ad-4987-960b-0779a4936391.png"
-                alt="Uba Morris - Senior Cloud DevOps/SRE Engineer"
+                alt="Nwogbo Ubakeze - Senior Cloud DevOps/SRE Engineer"
                 className="w-full h-auto rounded-xl object-cover"
               />
               
