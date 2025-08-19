@@ -174,16 +174,20 @@ const Projects = () => {
                     ))}
                   </div>
                 </div>
+
+                <div className="flex gap-2">
+                  <Button size="sm" className="flex-1 bg-brand-purple hover:bg-brand-purple/90">
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Live Demo
+                  </Button>
+                  <Button size="sm" variant="outline" className="flex-1">
+                    <Github className="w-4 h-4 mr-2" />
+                    Code
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <Button variant="outline" size="lg">
-            <ExternalLink className="w-4 h-4 mr-2" />
-            View All Projects
-          </Button>
         </div>
       </div>
     </section>
