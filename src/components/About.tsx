@@ -86,38 +86,42 @@ const About = () => {
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">AWS</Badge>
                   <Badge variant="secondary">Azure</Badge>
-                  <Badge variant="secondary">Google Cloud</Badge>
-                  <Badge variant="secondary">AWS EKS</Badge>
-                  <Badge variant="secondary">Azure AKS</Badge>
-                  <Badge variant="secondary">GKE</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="hero-card">
-              <CardContent className="p-6">
-                <h4 className="font-semibold mb-3">Cloud DevOps & Automation</h4>
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Kubernetes</Badge>
-                  <Badge variant="secondary">Docker</Badge>
-                  <Badge variant="secondary">Terraform</Badge>
-                  <Badge variant="secondary">CloudFormation</Badge>
-                  <Badge variant="secondary">GitLab CI/CD</Badge>
-                  <Badge variant="secondary">Azure DevOps</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="hero-card">
-              <CardContent className="p-6">
-                <h4 className="font-semibold mb-3">Cloud Monitoring & SRE</h4>
-                <div className="flex flex-wrap gap-2">
+                  <Badge variant="secondary">GCP</Badge>
+                  <Badge variant="secondary">Digital Ocean</Badge>
+                  <Badge variant="secondary">EKS</Badge>
                   <Badge variant="secondary">CloudWatch</Badge>
-                  <Badge variant="secondary">Azure Monitor</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hero-card">
+              <CardContent className="p-6">
+                <h4 className="font-semibold mb-3">DevOps & Automation Tools</h4>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="secondary">Docker</Badge>
+                  <Badge variant="secondary">Kubernetes</Badge>
+                  <Badge variant="secondary">Terraform</Badge>
+                  <Badge variant="secondary">Jenkins</Badge>
+                  <Badge variant="secondary">Ansible</Badge>
+                  <Badge variant="secondary">Azure DevOps</Badge>
+                  <Badge variant="secondary">GitHub Actions</Badge>
+                  <Badge variant="secondary">Argo CD</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="hero-card">
+              <CardContent className="p-6">
+                <h4 className="font-semibold mb-3">Monitoring & Development</h4>
+                <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">Prometheus</Badge>
                   <Badge variant="secondary">Grafana</Badge>
-                  <Badge variant="secondary">Datadog</Badge>
-                  <Badge variant="secondary">PagerDuty</Badge>
+                  <Badge variant="secondary">Loki</Badge>
+                  <Badge variant="secondary">Elastic Stack</Badge>
+                  <Badge variant="secondary">Angular</Badge>
+                  <Badge variant="secondary">Java Spring Boot</Badge>
+                  <Badge variant="secondary">NodeJS</Badge>
+                  <Badge variant="secondary">MySQL</Badge>
                 </div>
               </CardContent>
             </Card>
