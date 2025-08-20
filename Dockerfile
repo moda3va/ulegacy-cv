@@ -23,7 +23,7 @@ RUN npm run build
 # RUN npm prune --production
 
 # Expose the port Vite will run on (default is 3000)
-EXPOSE 4173
+EXPOSE 8080
 
 # Run the Vite app in production mode (serve the built assets)
 CMD ["npm", "run", "preview"]
